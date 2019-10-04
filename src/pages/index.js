@@ -9,10 +9,13 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import masonicCon from '../assets/images/masonicConLogo.jpg';
+import txCon from '../assets/images/tx-con-copy.jpg';
+import mcc from '../assets/images/mccLogo.jpg';
+import campMasonry from '../assets/images/Camp-Masonry.jpg';
+import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
+import comingSoon from '../assets/images/ComingSoon2-01.jpg';
+import attendees from '../assets/images/2019attendees.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -38,34 +41,42 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">About the Conference</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+              The Mid-Atlantic Esotericon is the first of its kind conference
+              for, and about Esoteric Masonry and Esoteric topics. Founded in
+              2019, our mission is to bring together like-minded individuals for
+              a day of education, fellowship and immersion in an effort to break
+              the stigma associated with Esoteric topics.
+            </p>
+            <p className="text-white-50">
+              The 2020 edition of the Conference will take place at Kena Shrine,
+              in Manassas Virginia on Saturday June 13th 2020. Stay tuned for 
+              announcements on speakers and ticket sales!
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="speakers" className="speakers-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={attendees} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Hosts</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                Your Mid-Atlantic Esotericon hosts and organizers are four
+                Master Masons who saw a gap in Esoteric education waiting to be
+                filled. In their inaugural year, they brought in 140 esoteric
+                hungry attendees for the 2019 Mid-Atlantic Esotericon. Our aim
+                is to bring high-quality Esoteric education to the masses, and
+                change the way both Freemasons and the public at large view
+                Esoteric topics.
               </p>
             </div>
           </div>
@@ -73,16 +84,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={comingSoon} alt="https://www.freepik.com/free-photos-vectors/clock" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                <div className="speakers-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">2020 Conference Speakers</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    Stay tuned for coming announcements on our 2020 speaker lineup!
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -91,14 +101,14 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters">
+        {/* <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
             <img className="img-fluid" src={demoImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="speakers-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Mountains</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
@@ -110,8 +120,128 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
+        </div> */}
+      </div> 
+    </section>
+
+    <section id="friends" className="friends-section bg-light">
+    <div className="container">
+      <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="col-lg-6">
+          <img className="img-fluid" src={masonicCon} alt="" />
+        </div>
+        <div className="col-lg-6">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="friends-text w-100 my-auto text-center text-lg-left">
+                <h4 className="text-white">
+                  Ezekiel Bates Lodge Masonic Con
+                </h4>
+                <p className="mb-0 text-white-50">
+                  The Masonic Con that started it all, hosted by the Brethren
+                  of Ezekiel Bates Lodge in Attelboro MA, for the past four
+                  years Masonic Con has hosted a wide range of speakers, and
+                  Masonic vendors and has inspired us, and other Masonic
+                  Conferences to bring education to the Masonic masses!
+                </p>
+                <hr className="d-none d-lg-block mb-0 ml-0" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div className="row justify-content-center no-gutters">
+        <div className="col-lg-6">
+          <img className="img-fluid" src={campMasonry} alt="" />
+        </div>
+        <div className="col-lg-6 order-lg-first">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="friends-text w-100 my-auto text-center text-lg-right">
+                <h4 className="text-white">Camp Masonry</h4>
+                <p className="mb-0 text-white-50">
+                  What started out as a camping trip between the four Lodges
+                  in their Masonic District has now grown into a Masonic
+                  phenominon bringing in Masons from across the country.
+                  Including speakers, ritual work, a Grand Masters class,
+                  festive board and a night time Master Mason Degree that
+                  can't be found anywhere else. Join the Brethren of Ohio for
+                  a truly unique Masonic experience!
+                </p>
+                <hr className="d-none d-lg-block mb-0 mr-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="col-lg-6">
+          <img className="img-fluid" src={txCon} alt="" />
+        </div>
+        <div className="col-lg-6">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="friends-text w-100 my-auto text-center text-lg-left">
+                <h4 className="text-white">Texas Masonic Con</h4>
+                <p className="mb-0 text-white-50">
+                  Started in 2018 by several Brethren of Ft Worth Lodge No
+                  148, the Texas Masonic Con was a way for these Brethren to
+                  offer Masonic education to a wider audience than just their
+                  Lodge.
+                </p>
+                <hr className="d-none d-lg-block mb-0 ml-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row justify-content-center no-gutters">
+        <div className="col-lg-6">
+          <img className="img-fluid" src={spml} alt="" />
+        </div>
+        <div className="col-lg-6 order-lg-first">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="friends-text w-100 my-auto text-center text-lg-right">
+                <h4 className="text-white">SPML Masonic Con</h4>
+                <p className="mb-0 text-white-50">
+                  The west coast Masonic Con started by Brethren from South
+                  Pasadena Masonic Lodge. This event boasts a festive board,
+                  distinguished group of Masonic scholars as well as the
+                  screening of several Masonic related movies.
+                </p>
+                <hr className="d-none d-lg-block mb-0 mr-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="col-lg-6">
+          <img className="img-fluid" src={mcc} alt="" />
+        </div>
+        <div className="col-lg-6">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="friends-text w-100 my-auto text-center text-lg-left">
+                <h4 className="text-white">Masonic Con Chicago</h4>
+                <p className="mb-0 text-white-50">
+                  The latest Masonic conference to come on the scene, with an
+                  eye on Freemasons in the mid-west. Held in the Windy City
+                  Chicago, Masonic Con Chicago will hold its first conference
+                  in September of 2020.
+                </p>
+                <hr className="d-none d-lg-block mb-0 ml-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
 
     <Subscribe />

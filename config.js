@@ -1,40 +1,30 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
-  manifestName: 'Grayscale',
+  siteTitle: 'Mid-Atlantic Esotericon', // <title>
+  manifestName: 'MAE Home',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `home.maesotericon.com`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Mid-Atlantic Esotericon',
+  subHeading: 'June 13th 2020, Manassas Virginia  ',
 
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
-    {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/MEsotericon',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/maesotericon',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
+  email: 'ma.esotericon@gmail.com',
   phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  address: '9500 Technology Dr. Manassas, VA 20110',
 };

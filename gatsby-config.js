@@ -18,6 +18,10 @@ module.exports = {
         display: config.manifestDisplay,
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'maesotericon.com',
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
