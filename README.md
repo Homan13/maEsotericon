@@ -1,4 +1,4 @@
-# gatsby-starter-grayscale
+# gatsby-starter-grayscale ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTG9QV1hZL1lmUHpVdFI3UUJ0K0JoTHZXNUd3Vm1ycmJkUFFCV0g0b2xyaFd1YlpaWXo5SkRWaGVibXEvVGNLZGpaWmYwWFhUU1JtUks5TnRiVmNtQTdrPSIsIml2UGFyYW1ldGVyU3BlYyI6IkxRRmdlS3ZobEJxYjdWVWIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
 Gatsby.js V2 starter template based on Grayscale by startbootstrap
 
