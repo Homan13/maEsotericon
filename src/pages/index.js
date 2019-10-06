@@ -128,7 +128,7 @@ const IndexPage = () => (
     <div className="container">
       <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={masonicCon} alt="" />
+          <a href="https://www.facebook.com/MasonicCon/"><img className="img-fluid" src={masonicCon} alt="" /></a>
         </div>
         <div className="col-lg-6">
           <div className="bg-black text-center h-100 project">
@@ -153,7 +153,7 @@ const IndexPage = () => (
 
       <div className="row justify-content-center no-gutters">
         <div className="col-lg-6">
-          <img className="img-fluid" src={campMasonry} alt="" />
+          <a href="http://campmasonry.xara.hosting//"><img className="img-fluid" src={campMasonry} alt="" /></a>
         </div>
         <div className="col-lg-6 order-lg-first">
           <div className="bg-black text-center h-100 project">
@@ -178,7 +178,7 @@ const IndexPage = () => (
 
       <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={txCon} alt="" />
+          <a href="https://www.texasmasonicon.com/"><img className="img-fluid" src={txCon} alt="" /></a>
         </div>
         <div className="col-lg-6">
           <div className="bg-black text-center h-100 project">
@@ -200,7 +200,7 @@ const IndexPage = () => (
 
       <div className="row justify-content-center no-gutters">
         <div className="col-lg-6">
-          <img className="img-fluid" src={spml} alt="" />
+          <a href="https://www.masoniccon.com/"><img className="img-fluid" src={spml} alt="" /></a>
         </div>
         <div className="col-lg-6 order-lg-first">
           <div className="bg-black text-center h-100 project">
@@ -222,7 +222,7 @@ const IndexPage = () => (
 
       <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={mcc} alt="" />
+          <a href="https://masonicconchicago.com/"><img className="img-fluid" src={mcc} alt="" /></a>
         </div>
         <div className="col-lg-6">
           <div className="bg-black text-center h-100 project">
