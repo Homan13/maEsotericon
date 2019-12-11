@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
+//import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
@@ -54,6 +54,9 @@ const IndexPage = () => (
               in Manassas Virginia on Saturday June 13th 2020. Stay tuned for 
               announcements on speakers and ticket sales!
             </p>
+            <h2 className="text-white mb-4">
+              <a  href="https://mailchi.mp/41d539e0a786/mae2020">Subscribe for updates!</a>
+            </h2>
           </div>
         </div>
         {/* <img src={ipad} className="img-fluid" alt="" /> */}
@@ -244,7 +247,7 @@ const IndexPage = () => (
     </div>
     </section>
 
-    <Subscribe />
+    {/* <Subscribe /> */}
 
     <SocialLinks />
     <Footer />
