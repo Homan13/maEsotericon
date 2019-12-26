@@ -53,9 +53,12 @@ const IndexPage = () => (
             </p>
             <p className="text-white-50">
               The 2020 edition of the Conference will take place at Kena Shrine,
-              in Manassas Virginia on Saturday June 13th 2020. Stay tuned for 
-              announcements on speakers and ticket sales!
+              in Manassas Virginia on Saturday June 13th 2020. Tickets are on sale
+              now!
             </p>
+            <h2 className="text-white mb-4">
+              <a href="https://www.eventbrite.com/e/2020-mid-atlantic-esotericon-tickets-80112816591">Purchase Tickets Now!</a>
+            </h2>
             <h2 className="text-white mb-4">
               <a  href="https://mailchi.mp/41d539e0a786/mae2020">Subscribe for updates!</a>
             </h2>
