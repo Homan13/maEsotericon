@@ -14,8 +14,10 @@ import txCon from '../assets/images/tx-con-copy.jpg';
 import mcc from '../assets/images/mccLogo.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
 import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
-import comingSoon from '../assets/images/ComingSoon2-01.jpg';
+// import comingSoon from '../assets/images/ComingSoon2-01.jpg';
 import attendees from '../assets/images/2019attendees.jpg';
+import esotericon from '../assets/images/Esotericon2020.jpg';
+import chuck from '../assets/images/chuckDunning2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -59,7 +61,7 @@ const IndexPage = () => (
             </h2>
           </div>
         </div>
-        {/* <img src={ipad} className="img-fluid" alt="" /> */}
+        <img src={esotericon} className="img-fluid" alt="" />
       </div>
     </section>
 
@@ -85,7 +87,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        {/* <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={comingSoon} alt="https://www.freepik.com/free-photos-vectors/clock" />
           </div>
@@ -102,28 +104,30 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* <div className="row justify-content-center no-gutters">
+        <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={chuck} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="speakers-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Bro. C.R. "Chuck" Dunning Jr.</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  Chuck is an advocate, facilitator, and consultant in contemplative practice. With 
+                  more than 30 years in the professional fields of higher education and mental health, 
+                  as well as in Masonry and other currents in the Western esoteric traditions, 
+                  Chuck’s consistent commitment is to the actual practice of internal disciplines 
+                  to facilitate and enhance experiences of initiation and transformation.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div> 
     </section>
 
