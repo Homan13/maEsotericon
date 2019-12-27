@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-//import Subscribe from '../components/Subscribe';
+import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
@@ -254,7 +254,7 @@ const IndexPage = () => (
     </div>
     </section>
 
-    {/* <Subscribe /> */}
+    <Subscribe />
 
     <SocialLinks />
     <Footer />

@@ -22,6 +22,10 @@ module.exports = {
       options: {
         bucketName: 'maesotericon.com',
       },
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: 'https://maesotericon.us5.list-manage.com/subscribe/post?u=89f422bfc970ea7a59041270f&amp;id=1acddc0a37',
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
