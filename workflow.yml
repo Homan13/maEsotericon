@@ -1,0 +1,16 @@
+name: Live audit of MAE website
+on: push
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Live audit URL
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://home.maesotericon.com'
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
