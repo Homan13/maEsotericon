@@ -18,6 +18,7 @@ import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
 import attendees from '../assets/images/2019attendees.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
 import chuck from '../assets/images/chuckDunning2020.jpg';
+import don from '../assets/images/donMcAndrews2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -108,15 +109,15 @@ const IndexPage = () => (
             </div>
           </div>
         </div> */}
-
-        <div className="row justify-content-center no-gutters">
+        
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={chuck} alt="" />
           </div>
-          <div className="col-lg-6 order-lg-first">
+          <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="speakers-text w-100 my-auto text-center text-lg-right">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Bro. C.R. "Chuck" Dunning Jr.</h4>
                   <p className="mb-0 text-white-50">
                   Chuck is an advocate, facilitator, and consultant in contemplative practice. With 
@@ -125,13 +126,36 @@ const IndexPage = () => (
                   Chuck’s consistent commitment is to the actual practice of internal disciplines 
                   to facilitate and enhance experiences of initiation and transformation.
                   </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={don} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">RW Donald McAndrews</h4>
+                  <p className="mb-0 text-white-50">
+                  Donald McAndrews was raised to the Sublime Degree of Master Mason in Iowa in 1970 
+                  and has a Masonic career that spans several lifetimes. Most notably, Don has served as 
+                  the Grand High Priest of Royal Arch Masons in Virginia in 2015, Most Illustrious Grand 
+                  Master of Cryptic Masons in the District of Columbia in 2016 and is Past District 
+                  Deputy Grand Master for the 4th Masonic District in the Grand Lodge of Virginia.
+                  </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </section>
 
     <section id="friends" className="friends-section bg-light">
