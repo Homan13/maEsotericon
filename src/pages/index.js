@@ -19,6 +19,7 @@ import attendees from '../assets/images/2019attendees.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
 import chuck from '../assets/images/chuckDunning2020.jpg';
 import don from '../assets/images/donMcAndrews2020.jpg';
+import joe from '../assets/images/joeWages2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -150,6 +151,31 @@ const IndexPage = () => (
                   Deputy Grand Master for the 4th Masonic District in the Grand Lodge of Virginia.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={joe} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Bro. Josef Wages, 32°</h4>
+                  <p className="mb-0 text-white-50">
+                  Bro Wäges 32°, is a member of the Blue Friars, Plano Lodge #768, Fate Lodge #802, the
+                  Dallas Valley of the AASR, Fellow of the Grand College of Rites, and several
+                  Lodges of Research. Editor of The Secret School of Wisdom, the Authentic Rituals and
+                  Doctrines of the Illuminati, L'École secrète de sagesse, Rituels et doctrines authentiques des
+                  Illuminati: Une école secrète de Sagesse, and On Materialism and Idealism. He is currently
+                  preparing the forthcoming books, Ecossais Masonry: A History of the High Degrees from the Scots
+                  Master to the Order of the Royal Secret, for SRRS, the Columbian Illuminati, The Improved System of the Illuminati.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
