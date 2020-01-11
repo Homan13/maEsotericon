@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-//import Subscribe from '../components/Subscribe';
+import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
@@ -18,7 +18,7 @@ import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
 import attendees from '../assets/images/2019attendees.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
 import chuck from '../assets/images/chuckDunning2020.jpg';
-import don from '../assets/images/donMcAndrews2020.jpg';
+import don from '../assets/images/donMcAndrews2020-2.jpg';
 import joe from '../assets/images/joeWages2020.jpg';
 
 const IndexPage = () => (
@@ -60,9 +60,6 @@ const IndexPage = () => (
             </p>
             <h2 className="text-white mb-4">
               <a href="https://www.eventbrite.com/e/2020-mid-atlantic-esotericon-tickets-80112816591">Purchase Tickets Now!</a>
-            </h2>
-            <h2 className="text-white mb-4">
-              <a  href="https://mailchi.mp/41d539e0a786/mae2020">Subscribe for updates!</a>
             </h2>
           </div>
         </div>
@@ -304,7 +301,7 @@ const IndexPage = () => (
     </div>
     </section>
 
-    {/* <Subscribe /> */}
+    <Subscribe />
 
     <SocialLinks />
     <Footer />
