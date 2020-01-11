@@ -9,11 +9,11 @@ export default function Subscribe() {
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 className="text-white mb-5">Subscribe to receive updates!</h2>
 
-            <form className="form-inline d-flex">
+            <form className="form-inline d-flex" action="https://getform.io/f/fecd8215-e444-400f-b889-c86b2b036683" method="POST">
               <input
                 type="email"
                 className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
-                id="inputEmail"
+                name="email"
                 placeholder="Enter email address..."
               />
               <button type="submit" className="btn btn-primary mx-auto">
