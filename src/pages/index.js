@@ -20,6 +20,7 @@ import esotericon from '../assets/images/Esotericon2020.jpg';
 import chuck from '../assets/images/chuckDunning2020.jpg';
 import don from '../assets/images/donMcAndrews2020-2.jpg';
 import joe from '../assets/images/joeWages2020.jpg';
+import dave from '../assets/images/daveBacon2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -173,6 +174,31 @@ const IndexPage = () => (
                   Master to the Order of the Royal Secret, for SRRS, the Columbian Illuminati, The Improved System of the Illuminati.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={dave} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">RW Donald McAndrews</h4>
+                  <p className="mb-0 text-white-50">
+                  Bro. Dave Bacon is a member of Philadelphia Lodge No. 177, in New Philadelphia, OH as well as 
+                  Ashlar Lodge No. 639 in Twinsburg, OH. A lifelong artist and entrepreneur, Bro. Dave is the 
+                  owner and operator of Spellbound Tattoos in Massillon, Ohio and has sought to blend the arts 
+                  into Freemasonry with his previous work with Cornerstone Regalia and Ashlar Aprons. Bro. Dave 
+                  is also passionate about esoteric subjects and has given lectures on symbolic interpretation 
+                  throughout Ohio and Virginia. Bro. Dave has also written extensively about his Masonic experiences 
+                  in his blog Between the Compasses.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
