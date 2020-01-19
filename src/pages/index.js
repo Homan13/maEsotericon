@@ -188,7 +188,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">RW Donald McAndrews</h4>
+                  <h4 className="text-white">Bro Dave Bacon</h4>
                   <p className="mb-0 text-white-50">
                   Bro. Dave Bacon is a member of Philadelphia Lodge No. 177, in New Philadelphia, OH as well as 
                   Ashlar Lodge No. 639 in Twinsburg, OH. A lifelong artist and entrepreneur, Bro. Dave is the 
