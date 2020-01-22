@@ -21,6 +21,7 @@ import chuck from '../assets/images/chuckDunning2020.jpg';
 import don from '../assets/images/donMcAndrews2020-2.jpg';
 import joe from '../assets/images/joeWages2020.jpg';
 import dave from '../assets/images/daveBacon2020.jpg';
+import angel from '../assets/images/angelMillar2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -199,6 +200,32 @@ const IndexPage = () => (
                   in his blog Between the Compasses.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={angel} alt="Copyright Leticia Burgos 2019" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Angel Millar</h4>
+                  <p className="mb-0 text-white-50">
+                  Angel Millar is the author of The Three Stages of Initiatic Spirituality: Craftsman, Warrior, 
+                  Magician, which explores the three archetypes, from their appearance in ancient, tribal society, 
+                  through ancient Greek thought, Buddhism, and Hinduism to the martial arts, Kundalini, Tantra, 
+                  inner alchemy, and psychology.
+
+                  Millar is also the author of several books on the history of Freemasonry and a well-lecturer on 
+                  the subjects of self-mastery, spirituality, and esotericism. New Dawn magazine has described his 
+                  work as “…of extraordinary importance in this time of cultural and even spiritual conflict.”
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
