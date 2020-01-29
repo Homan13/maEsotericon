@@ -22,6 +22,7 @@ import don from '../assets/images/donMcAndrews2020-2.jpg';
 import joe from '../assets/images/joeWages2020.jpg';
 import dave from '../assets/images/daveBacon2020.jpg';
 import angel from '../assets/images/angelMillar2020.jpg';
+import rj from '../assets/images/rjJohnson2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -226,6 +227,30 @@ const IndexPage = () => (
                   work as “…of extraordinary importance in this time of cultural and even spiritual conflict.”
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={rj} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">R.W. Robert H. Johnson</h4>
+                  <p className="mb-0 text-white-50">
+                  Philosophy is at the core of what Robert is after. Having grown up in Italy and being exposed 
+                  to the culture and much of the renaissance art and literature, Freemasonry became a natural 
+                  place for him to gravitate toward. He is an avid musician and writer. He’s written for several 
+                  print magazines and blogs on subjects ranging from Firearms and Medical Ethics to Theology and 
+                  Comparative Religions. Robert's primary studies are in philosophy and mathematics. He also 
+                  holds an honorary Doctorate Degree in Philosophy in Religion.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
