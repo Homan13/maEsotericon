@@ -3,6 +3,7 @@ on: push
 
 jobs:
   audit:
+    runs-on: ubuntu-latest
     steps:
     - name: Live audit URL
       uses: Homan13/maEsotericon@master
