@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Live audit URL
-      uses: Homan13/maEsotericon@master
+      uses: jakejarvis/lighthouse-action@master
       with:
         url: 'https://home.maesotericon.com'
     - name: Upload results as an artifact
