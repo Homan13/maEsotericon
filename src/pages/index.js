@@ -74,19 +74,20 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={attendees} alt="" />
+            {/* <img className="img-fluid mb-3 mb-lg-0" src={attendees} alt="" /> */}
+            <iframe width="560" height="315" src='https://www.youtube.com/embed/N7rdcHxPJKI'
+                    frameBorder='0'
+                    allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+                    allowFullScreen
+                    title='Roadmap to Freemasonry: Joe and Kevin Mid-Atlantic Esotericon 2019'
+            />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <h4>Hosts</h4>
               <p className="text-black-50 mb-0">
-                Your Mid-Atlantic Esotericon hosts and organizers are four
-                Master Masons who saw a gap in Esoteric education waiting to be
-                filled. In their inaugural year, they brought in 140 esoteric
-                hungry attendees for the 2019 Mid-Atlantic Esotericon. Our aim
-                is to bring high-quality Esoteric education to the masses, and
-                change the way both Freemasons and the public at large view
-                Esoteric topics.
+                Hear our hosts talk to Brother Juan Sepulveda from RoadMap to Freemasonry talk about
+                what motivated them to start up the Mid-Atlantic Esotericon.
               </p>
             </div>
           </div>
