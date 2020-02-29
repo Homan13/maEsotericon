@@ -1,79 +1,3 @@
-# gatsby-starter-grayscale ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTG9QV1hZL1lmUHpVdFI3UUJ0K0JoTHZXNUd3Vm1ycmJkUFFCV0g0b2xyaFd1YlpaWXo5SkRWaGVibXEvVGNLZGpaWmYwWFhUU1JtUks5TnRiVmNtQTdrPSIsIml2UGFyYW1ldGVyU3BlYyI6IkxRRmdlS3ZobEJxYjdWVWIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) ![Live audit of MAE website](https://github.com/Homan13/maEsotericon/workflows/Live%20audit%20of%20MAE%20website/badge.svg)
-
-Gatsby.js V2 starter template based on Grayscale by startbootstrap
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
-
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-grayscale/)
-
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-
-```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-grayscale
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm install
-gatsby develop
-```
-
-### Personalization
-
-Edit `config.js` to put up your details
-
-```javascript
-module.exports = {
-  siteTitle: 'Gatsby Starter grayscale', // <title>
-  ...
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
-
-  // social
-  socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    }
-    ...
-  ],
-};
-
-```
-
-### Deploying using Github page
-
-`package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
-
-Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefix/) value set for gatsby config in `config.js`. Change `pathPrefix` to relevant path if your gatsby site is hosted on subpath of a domain, `https://theanubhav.com/somePath/`. If you are hosting it as root site, i.e, `https://theanubhav.com/` , remove the pathPrefix configuration.
-
-### Contribution
-
-Suggestions and PRs are welcome!
-
-Please create issue or open PR request for contribution.
-
-### License
-
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
-
-refer `LICENSE` file in this repository.
-
 # Mid-Atlantic Esotericon
 
 Repository for the homepage of the Mid-Atlantic Esotericon, the premier Masonic Esoteric Conference. The site is built with Gatsby, using the Grayscale starter template edited to fit our needs as an organization.
@@ -88,17 +12,11 @@ This README will help the user install a local copy of the MAE site on a develop
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-To get a development environment up and running on a local workstation you will need the following tools installed; Node, NPM or Yarn (this walk-through will use NPM), Git and the Gatsby CLI. This guide is assuming the user is using a Debian/Ubuntu based development environment, if you are using something different please see the installation instructions maintained by [Gatsby](https://gatsbyjs.org/tutorial/part-zero/).
+To get a development environment up and running on a local workstation, you will need the following tools installed; Node, NPM or Yarn (this walk-through will use NPM), Git and the Gatsby CLI. This guide is assuming the user is using a Debian/Ubuntu based development environment, if you are using something different please see the installation instructions maintained by [Gatsby](https://gatsbyjs.org/tutorial/part-zero/).
 
 #### Installing Node.js
 
-For this case we're using nvm to install and manage Node, to start out make sure your workstation is up to date;
+For this case we're using NVM to install and manage Node, to start out make sure your workstation is up to date;
 
 ```sh
 sudo apt update
@@ -171,72 +89,160 @@ If Gatsby has properly installed, you should see the installed version number on
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+This section will get you up and running with the MAE sourcecode on your development workstation so you can start developing locally.
 
-Say what the step will be
+#### Clone MAE Repository to Your Local Workstation
 
-```
-Give the example
-```
+Clone the repository onto your local development workstation by running the following command;
 
-And repeat
+`git clone https://github.com/Homan13/maEsotericon.git`
 
-```
-until finished
-```
+CD into the code directory;
 
-End with an example of getting some data out of the system or using it for a little demo
+`cd maEsotericon`
+
+#### Install Dependencies
+
+Install dependencies for the application, this will read from the package.json file and install all necesary dependencies for the MAE website to properly run;
+
+`npm install`
+
+#### Start Development Server
+
+Start the development server by running the following command;
+
+`gatsby develop`
+
+This will start up the Gatsby development server, if everything starts up properly you should be able to see the site by opening a web browser and navigating to http://localhost:8000/. You can work on the application using your IDE of choice, as you save your work the Gatsby development server will automatically update the site as you go.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Currently we are only running Lighthouse tests on the site, with the plan being to add additional tests over the coming year. These tests are run automatically on every push or merge into Master using GitHub Actions. 
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+#### Lighthouse Audit
 
+Lighthouse is a Google developed tool that can be run against any website and audits it for "performance, accessibility, progressive web apps, Search Engine Optimization (SEO) and more". We use the [GitHub Action for Lighthouse Auditing](https://github.com/jakejarvis/lighthouse-action), developed by Jake Jarvis.
+
+The Lighthouse audit config is found in the .github/workflows directory, currently under the workflow.yml file.
+
+```yml
+name: Live audit of MAE website
+on: push
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Live audit URL
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://home.maesotericon.com'
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
 ```
-Give an example
-```
+
+The test configuration is a relatively straight forward YAML file. In it we name it, and we define that we want it to run on every push (the action). Under the jobs section is where we define the actions included in our audit, the audit itself, and what we want to do with the results. All this run using containers, which in this case is run on the latest Ubuntu offering. We use Jake Jarvis' Lighthouse action and run it on the main URL of the website. Next we use the Upload Artifact action to then upload the generated report back into our repository.
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Coming Soon
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+The site is hosted in Amazon Web Services (AWS) using S3 to host the source code, fronted by CloudFront with Route 53 providing DNS services. Code is deployed into S3 using AWS CodeBuild, with the final push done using the gatsby-plugin-s3 plugin. All deployments are started upon any push or merge into the Master branch of the repository.
+
+### Buildspec
+
+The buildspec file located in the document root of this repository tells CodeBuild what to do in a series of commands to build and deploy the code.
+
+```yml
+version: 0.1
+phases:    
+    install:        
+        commands:            
+            - 'touch .npmignore'            
+            - 'npm install -g gatsby'    
+    pre_build:        
+        commands:            
+            - 'npm install'    
+    build:        
+        commands:            
+            - 'npm run build'    
+    post_build:        
+        commands:            
+            - 'npm run deploy'
+artifacts:    
+    base-directory: public    
+    files:        
+        - '**/*'    
+    discard-paths: yes
+```
+
+This build is broken up into four phases. In install a .npmignore file is created and Gatsby is installed globally on the build container. In the pre_build phase all our project dependencies are installed. In the build phase the project is built, with the artifacts that will be deployed to S3 stored in the /public directory. The last step deploys the code into the hosting S3 bucket. The artifacts section of the file just notes the directory our build artifacts are located in for the deploy stage, in this case /public and tells the build step to deploy all files recursively in that directory. The discard-paths discards the path to files in the final build artifact. For example, if a file had the following path; /com/mycompany/app/HelloWorld.java, by specifying that the build discard paths that file becomes HelloWorld.java. For more on CodeBuild buildspec files, and how they can be configured see their [documentation](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html).
+
+### Gatsby S3 Plugin
+
+This plugin deploys our built source code to its destination S3 bucket. The plugin is installed using npm, which installs it as a dependency in your package.json file;
+
+`npm i gatsby-plugin-s3`
+
+Next, configure your gatsby-config.js file so Gatsby knows you're using the plugin to deploy your code, and configure it with the bucket to deploy to;
+
+```js
+   {
+     resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'maesotericon.com',
+      },
+   },
+```
+
+Finally, add the deployment script to your package.json file;
+
+```json
+"scripts": {
+    ...
+    "deploy": "gatsby-plugin-s3 deploy",
+}
+```
+For more information on configuring the S3 plugin for Gatsby, you can check out their official [documentation](https://www.gatsbyjs.org/packages/gatsby-plugin-s3/).
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Gatsby](https://www.gatsbyjs.org/) - React based web framework
+* [Grayscale Template](https://anubhavsrivastava.github.io/gatsby-starter-grayscale/) - Starter Template
+* [Amazon S3](https://aws.amazon.com/s3/) - Site hosting
+* [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - Content Delivery Network (CDN)
+* [Amazon Route 53](https://aws.amazon.com/route53/) - Domain Name System (DNS) service
+* [Amazon CodeBuild](https://aws.amazon.com/codebuild/) - Managed build service
+* [Lighthouse Action](https://github.com/jakejarvis/lighthouse-action) - Lighthouse auditing
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions in the way of pull requests are always welcome! Repository should be updated shortly with contribution documentation.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+This project follows semantic versioning, [SemVer](http://semver.org/).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Kevin Homan**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
+
+Site will be updated with a license file soon
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* The Gatsby team
+* Anubhav Srivastava - Developer of the Grayscale starter template
+* Joe, Jason and Jon - My colleagues at the Mid-Atlantic Esotericon
+* Our attendees and speakers who make the Mid-Atlantic Esotericon the success it is
