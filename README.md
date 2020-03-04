@@ -244,5 +244,6 @@ Site will be updated with a license file soon
 
 * The Gatsby team
 * Anubhav Srivastava - Developer of the Grayscale starter template
+* [Billie Thompson](https://github.com/PurpleBooth) - Creater of this wonderful README template
 * Joe, Jason and Jon - My colleagues at the Mid-Atlantic Esotericon
 * Our attendees and speakers who make the Mid-Atlantic Esotericon the success it is
