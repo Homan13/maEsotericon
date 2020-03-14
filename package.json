@@ -1,6 +1,6 @@
 {
   "name": "mid-atlantic-esotericon",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Mid-Atlantic Esotericon homepage on Grayscale by startbootstrap",
   "repository": {
     "type": "git",
@@ -11,13 +11,15 @@
     "email": "ma.esotericon@gmail.com"
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "gatsby": "^2.19.21",
     "gatsby-cli": "^2.9.0",
     "gatsby-plugin-manifest": "^2.2.42",
     "gatsby-plugin-offline": "^2.1.0",
     "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-s3": "^0.3.2",
+    "gatsby-plugin-s3": "^0.3.3",
     "gatsby-plugin-sass": "^2.1.29",
+    "kind-of": "^6.0.3",
     "mem": "^6.0.1",
     "node-sass": "^4.13.1",
     "npm-check-updates": "^4.0.1",
@@ -26,7 +28,8 @@
     "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
-    "smoothscroll-polyfill": "^0.4.4"
+    "smoothscroll-polyfill": "^0.4.4",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "develop": "gatsby develop",

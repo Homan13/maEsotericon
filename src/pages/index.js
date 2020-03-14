@@ -15,7 +15,7 @@ import mcc from '../assets/images/mccLogo.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
 import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
 // import comingSoon from '../assets/images/ComingSoon2-01.jpg';
-import attendees from '../assets/images/2019attendees.jpg';
+// import attendees from '../assets/images/2019attendees.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
 import chuck from '../assets/images/chuckDunning2020.jpg';
 import don from '../assets/images/donMcAndrews2020-2.jpg';
