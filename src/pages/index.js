@@ -106,7 +106,7 @@ const IndexPage = () => (
         
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584806708/maeGraphics/chuckDunning2020_hdqcem.jpg"} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/chuckDunning2020_yqhnxg.webp"} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -129,7 +129,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584807321/maeGraphics/donMacAndrews2020-2_dwurpp.jpg"} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/donMcAndrews2020_sgym7g.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -152,7 +152,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584807983/maeGraphics/joeWages2020_j3vlfq.jpg"} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/joeWages2020_ripkm0.webp"} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -177,7 +177,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584806864/maeGraphics/daveBacon2020_iwqprm.jpg"} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/daveBacon2020_iqdy4h.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -202,7 +202,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584796820/maeGraphics/angelMillar2020_dpzw8u.jpg"} alt="Copyright Leticia Burgos 2019" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/angelMillar2020_ttigb8.webp"} alt="Copyright Leticia Burgos 2019" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -228,7 +228,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584808178/maeGraphics/rjJohnson2020_suyhyg.jpg"} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/rjJohnson2020_s4dgoy.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
