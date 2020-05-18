@@ -57,9 +57,17 @@ const IndexPage = () => (
               the stigma associated with Esoteric topics.
             </p>
             <p className="text-white-50">
-              The 2020 edition of the Conference will take place at Kena Shrine,
-              in Manassas Virginia on Saturday June 13th 2020. Tickets are on sale
-              now!
+              Update - Due to the current situation in Virginia surrounding the 
+              coronavirus pandemic, we have a date and location change for this 
+              years Esotericon. We do apologize for the inconvenience, especially 
+              to those of you who have already made travel reservations. Unfortunately,
+              we don't forsee Virginia allowing gatherings as large as ours will be
+              by the time Esotericon rolls around. The new date for Esotericon will 
+              be Saturday July 25th, and the conference will be virtual instead
+              of in person. Details have been emailed to all attendees, additionally
+              because the conference is virtual we are opening it up to additional 
+              attendees. Thank you for your understanding, and we hope that in
+              2021 Esotericon will be back to an in-person conference!
             </p>
             <h2 className="text-white mb-4">
               <a href="https://www.eventbrite.com/e/2020-mid-atlantic-esotericon-tickets-80112816591">Purchase Tickets Now!</a>
