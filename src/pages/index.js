@@ -14,15 +14,7 @@ import txCon from '../assets/images/tx-con-copy.jpg';
 import mcc from '../assets/images/mccLogo.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
 import spml from '../assets/images/SPML_Masonic-Con_Color.jpg';
-// import comingSoon from '../assets/images/ComingSoon2-01.jpg';
-// import attendees from '../assets/images/2019attendees.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
-import chuck from '../assets/images/chuckDunning2020.jpg';
-import don from '../assets/images/donMcAndrews2020-2.jpg';
-import joe from '../assets/images/joeWages2020.jpg';
-import dave from '../assets/images/daveBacon2020.jpg';
-import angel from '../assets/images/angelMillar2020.jpg';
-import rj from '../assets/images/rjJohnson2020.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -122,7 +114,7 @@ const IndexPage = () => (
         
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={chuck} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/chuckDunning2020_yqhnxg.webp"} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -145,7 +137,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={don} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/donMcAndrews2020_sgym7g.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -168,7 +160,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={joe} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/joeWages2020_ripkm0.webp"} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -193,7 +185,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={dave} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/daveBacon2020_iqdy4h.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -218,7 +210,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={angel} alt="Copyright Leticia Burgos 2019" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/angelMillar2020_ttigb8.webp"} alt="Copyright Leticia Burgos 2019" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -244,7 +236,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={rj} alt="" />
+            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/rjJohnson2020_s4dgoy.webp"} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
