@@ -49,20 +49,20 @@ const IndexPage = () => (
               the stigma associated with Esoteric topics.
             </p>
             <p className="text-white-50">
-              Update - Due to the current situation in Virginia surrounding the 
-              coronavirus pandemic, we have a date and location change for this 
-              years Esotericon. We do apologize for the inconvenience, especially 
-              to those of you who have already made travel reservations. Unfortunately,
-              we don't forsee Virginia allowing gatherings as large as ours will be
-              by the time Esotericon rolls around. The new date for Esotericon will 
-              be Saturday July 25th, and the conference will be virtual instead
-              of in person. Details have been emailed to all attendees, additionally
-              because the conference is virtual we are opening it up to additional 
-              attendees. Thank you for your understanding, and we hope that in
-              2021 Esotericon will be back to an in-person conference!
+              We are truly humbled over the support of our attendees and speakers in making
+              this years event another success! Thank you to all that showed up, to our
+              speakers, and to Jaime and Angel for doing tarot readings all day. We also
+              of course are especially grateful for all the donations made to Give Kids
+              the World. You can donate through the link below to help make a difference
+              in a families life! We know that a 100% virtual conference wasn't what any
+              of us had in mind, but unfortunately that's what we were given, and thanks
+              to you all it was a great day. Survey's should be coming shortly, speaker
+              videos are being worked on and will be shared as soon as they're ready.
+              Don't forget to mark your calendars for June 11th and 12th for Mid-Atlantic
+              Esotericon 2021!
             </p>
             <h2 className="text-white mb-4">
-              <a href="https://www.eventbrite.com/e/2020-mid-atlantic-esotericon-tickets-80112816591">Purchase Tickets Now!</a>
+              <a href="https://www.gktw.org/">Give Kids the World Village</a>
             </h2>
           </div>
         </div>
