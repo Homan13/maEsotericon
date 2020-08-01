@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
-import PaypalExpressBtn from '../components/PayPalBtn';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
 import txCon from '../assets/images/tx-con-copy.jpg';
