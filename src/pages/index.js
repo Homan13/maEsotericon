@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
+import PaypalExpressBtn from '../components/PayPalBtn';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
 import txCon from '../assets/images/tx-con-copy.jpg';
@@ -35,6 +36,19 @@ const IndexPage = () => (
         </div>
       </div>
     </header>
+
+    <section id="purchase" className="about-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-white mb-4">Purchase your Esotericon 2021 tickets now!</h2>
+            <p className="text-white-50">
+                <PaypalExpressBtn />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="about" className="about-section text-center">
       <div className="container">
