@@ -62,7 +62,7 @@ const IndexPage = () => (
               Esotericon 2021!
             </p>
             <h2 className="text-white mb-4">
-              <a href="https://give.gktw.org/team/306740">Give Kids the World Village</a>
+              <a href="https://www.gktw.org/">Give Kids the World Village</a>
             </h2>
           </div>
         </div>
