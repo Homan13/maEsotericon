@@ -4,7 +4,7 @@ Repository for the homepage of the Mid-Atlantic Esotericon, the premier Masonic 
 
 ## Build Badges
 
-![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTG9QV1hZL1lmUHpVdFI3UUJ0K0JoTHZXNUd3Vm1ycmJkUFFCV0g0b2xyaFd1YlpaWXo5SkRWaGVibXEvVGNLZGpaWmYwWFhUU1JtUks5TnRiVmNtQTdrPSIsIml2UGFyYW1ldGVyU3BlYyI6IkxRRmdlS3ZobEJxYjdWVWIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) ![Live audit of MAE website](https://github.com/Homan13/maEsotericon/workflows/Live%20audit%20of%20MAE%20website/badge.svg)
+![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTG9QV1hZL1lmUHpVdFI3UUJ0K0JoTHZXNUd3Vm1ycmJkUFFCV0g0b2xyaFd1YlpaWXo5SkRWaGVibXEvVGNLZGpaWmYwWFhUU1JtUks5TnRiVmNtQTdrPSIsIml2UGFyYW1ldGVyU3BlYyI6IkxRRmdlS3ZobEJxYjdWVWIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) ![Live audit of MAE website](https://github.com/Homan13/maEsotericon/workflows/Live%20audit%20of%20MAE%20website/badge.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Homan13_maEsotericon&metric=alert_status)](https://sonarcloud.io/dashboard?id=Homan13_maEsotericon)
 
 ## Getting Started
 
