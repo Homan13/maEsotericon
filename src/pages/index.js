@@ -8,7 +8,8 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
-import PaypalExpressBtn from '../components/PayPalBtn';
+
+import comingSoon from '../assets/images/ComingSoon2-01.jpg';
 
 import masonicCon from '../assets/images/masonicConLogo.jpg';
 import txCon from '../assets/images/tx-con-copy.jpg';
@@ -104,7 +105,6 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            {/* <img className="img-fluid mb-3 mb-lg-0" src={attendees} alt="" /> */}
             <iframe width="560" height="315" src='https://www.youtube.com/embed/N7rdcHxPJKI'
                     frameBorder='0'
                     allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
@@ -123,7 +123,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        {/* <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={comingSoon} alt="https://www.freepik.com/free-photos-vectors/clock" />
           </div>
@@ -131,157 +131,11 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="speakers-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">2020 Conference Speakers</h4>
+                  <h4 className="text-white">2021 Conference Speakers</h4>
                   <p className="mb-0 text-white-50">
-                    Stay tuned for coming announcements on our 2020 speaker lineup!
+                    Stay tuned for coming announcements on our 2021 speaker lineup!
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/chuckDunning2020_yqhnxg.webp"} alt="" />
-          </div>
-          <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Bro. C.R. "Chuck" Dunning Jr.</h4>
-                  <p className="mb-0 text-white-50">
-                  Chuck is an advocate, facilitator, and consultant in contemplative practice. With 
-                  more than 30 years in the professional fields of higher education and mental health, 
-                  as well as in Masonry and other currents in the Western esoteric traditions, 
-                  Chuck’s consistent commitment is to the actual practice of internal disciplines 
-                  to facilitate and enhance experiences of initiation and transformation.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/donMcAndrews2020_sgym7g.webp"} alt="" />
-          </div>
-          <div className="col-lg-6 order-lg-first">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">RW Donald McAndrews</h4>
-                  <p className="mb-0 text-white-50">
-                  Donald McAndrews was raised to the Sublime Degree of Master Mason in Iowa in 1970 
-                  and has a Masonic career that spans several lifetimes. Most notably, Don has served as 
-                  the Grand High Priest of Royal Arch Masons in Virginia in 2015, Most Illustrious Grand 
-                  Master of Cryptic Masons in the District of Columbia in 2016 and is Past District 
-                  Deputy Grand Master for the 4th Masonic District in the Grand Lodge of Virginia.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/joeWages2020_ripkm0.webp"} alt="" />
-          </div>
-          <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Bro. Josef Wages, 32°</h4>
-                  <p className="mb-0 text-white-50">
-                  Bro Wäges 32°, is a member of the Blue Friars, Plano Lodge #768, Fate Lodge #802, the
-                  Dallas Valley of the AASR, Fellow of the Grand College of Rites, and several
-                  Lodges of Research. Editor of The Secret School of Wisdom, the Authentic Rituals and
-                  Doctrines of the Illuminati, L'École secrète de sagesse, Rituels et doctrines authentiques des
-                  Illuminati: Une école secrète de Sagesse, and On Materialism and Idealism. He is currently
-                  preparing the forthcoming books, Ecossais Masonry: A History of the High Degrees from the Scots
-                  Master to the Order of the Royal Secret, for SRRS, the Columbian Illuminati, The Improved System of the Illuminati.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/daveBacon2020_iqdy4h.webp"} alt="" />
-          </div>
-          <div className="col-lg-6 order-lg-first">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Bro Dave Bacon</h4>
-                  <p className="mb-0 text-white-50">
-                  Bro. Dave Bacon is a member of Philadelphia Lodge No. 177, in New Philadelphia, OH as well as 
-                  Ashlar Lodge No. 639 in Twinsburg, OH. A lifelong artist and entrepreneur, Bro. Dave is the 
-                  owner and operator of Spellbound Tattoos in Massillon, Ohio and has sought to blend the arts 
-                  into Freemasonry with his previous work with Cornerstone Regalia and Ashlar Aprons. Bro. Dave 
-                  is also passionate about esoteric subjects and has given lectures on symbolic interpretation 
-                  throughout Ohio and Virginia. Bro. Dave has also written extensively about his Masonic experiences 
-                  in his blog Between the Compasses.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/angelMillar2020_ttigb8.webp"} alt="Copyright Leticia Burgos 2019" />
-          </div>
-          <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Angel Millar</h4>
-                  <p className="mb-0 text-white-50">
-                  Angel Millar is the author of The Three Stages of Initiatic Spirituality: Craftsman, Warrior, 
-                  Magician, which explores the three archetypes, from their appearance in ancient, tribal society, 
-                  through ancient Greek thought, Buddhism, and Hinduism to the martial arts, Kundalini, Tantra, 
-                  inner alchemy, and psychology.
-
-                  Millar is also the author of several books on the history of Freemasonry and a well-lecturer on 
-                  the subjects of self-mastery, spirituality, and esotericism. New Dawn magazine has described his 
-                  work as “…of extraordinary importance in this time of cultural and even spiritual conflict.”
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/f_auto,q_auto/v1584880918/maeGraphics/2020%20Speakers/rjJohnson2020_s4dgoy.webp"} alt="" />
-          </div>
-          <div className="col-lg-6 order-lg-first">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">R.W. Robert H. Johnson</h4>
-                  <p className="mb-0 text-white-50">
-                  Philosophy is at the core of what Robert is after. Having grown up in Italy and being exposed 
-                  to the culture and much of the renaissance art and literature, Freemasonry became a natural 
-                  place for him to gravitate toward. He is an avid musician and writer. He’s written for several 
-                  print magazines and blogs on subjects ranging from Firearms and Medical Ethics to Theology and 
-                  Comparative Religions. Robert's primary studies are in philosophy and mathematics. He also 
-                  holds an honorary Doctorate Degree in Philosophy in Religion.
-                  </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>

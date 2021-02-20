@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `home.maesotericon.com`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Mid-Atlantic Esotericon',
-  subHeading: 'July 25 2020, Virtual  ',
+  subHeading: 'June 12 2021  ',
 
   // social
   socialLinks: [
