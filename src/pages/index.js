@@ -9,6 +9,8 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
+import mae2021 from '../assets/images/mae2021.jpg';
+
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
 import esotericon from '../assets/images/Esotericon2020.jpg';
@@ -61,7 +63,7 @@ const IndexPage = () => (
             </h2>
           </div>
         </div>
-        <img src={esotericon} className="img-fluid" alt="" />
+        <img src={mae2021} className="img-fluid" alt="" />
       </div>
     </section>
 
