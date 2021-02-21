@@ -41,22 +41,17 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">About the Conference</h2>
             <p className="text-white-50">
-              The Mid-Atlantic Esotericon is the first of its kind conference
-              for, and about Esoteric Masonry and Esoteric topics. Founded in
-              2019, our mission is to bring together like-minded individuals for
-              a day of education, fellowship and immersion in an effort to break
-              the stigma associated with Esoteric topics.
+            The Mid-Atlantic Esotericon is the first of its kind conference for and about Esoteric, 
+            Hermetic, Initiatic, and Transcendental topics. Founded in 2019, our mission is to 
+            bring together like-minded individuals for a day of education, fellowship and immersion in 
+            an effort to break the stigma associated with Esoteric topics.
             </p>
             <p className="text-white-50">
-              Happy Holiday's Mid-Atlantic Esotericon family! It's that time of year again, we
-              are actively getting ready for 2021's edition of Esotericon! While we don't yet 
-              know what is in store for June 2021, we are currently actively planning for both 
-              an in-person, and virtual option for this years event. With the success of last 
-              years fully virtual event, we see it as a complementary option for those who want
-              to attend, yet may not be able to travel. For those who do make the trip again to
-              Manassas, we plan to be back at Sinestral Brewing Company for our Friday night 
-              social event. We're also hard at work on a special surprise Sunday event for you 
-              all! Stay tuned, speaker announcements will be coming shortly after the new year!
+            It's that time of year again, and we have just announced that the 2021 Edition of 
+            Esotericon will again be virtual. With the success of last year’s fully virtual event,  
+            we are confident that we again can provide you all with amazing, worthwhile, and 
+            relevant education.  New speakers, new extra content, and a day filled with new ways to 
+            look at the world without, and the world within.
             </p>
             <h2 className="text-white mb-4">
               <a href="https://www.gktw.org/">Give Kids the World Village</a>
