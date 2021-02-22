@@ -43,7 +43,7 @@ const IndexPage = () => (
             <div className="mx-auto text-center">
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="E8X9QSWCV8SKN" />
+                <input type="hidden" name="hosted_button_id" value="5B7KJXWPUPEMY" />
                   <table>
                     <tr><td><input type="hidden" name="on0" value="2021 Esotericon Ticket Donations" />2021 Esotericon Ticket Donations</td></tr><tr><td><select name="os0">
                       <option value="One (1) Early Bird Ticket">One (1) Early Bird Ticket $1.00 USD</option>
