@@ -48,6 +48,7 @@ const IndexPage = () => (
                     <tr><td><input type="hidden" name="on0" value="2021 Esotericon Ticket Donations" />2021 Esotericon Ticket Donations</td></tr><tr><td><select name="os0">
                       <option value="One (1) Early Bird Ticket">One (1) Early Bird Ticket $53.00 USD</option>
                       <option value="Two (2) Early Bird Tickets">Two (2) Early Bird Tickets $106.00 USD</option>
+                      <option value="Demo">Demo $0.10 USD</option>
                     </select> </td></tr>
                   </table>
                 <input type="hidden" name="currency_code" value="USD" />
