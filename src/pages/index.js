@@ -61,11 +61,17 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="purchase" className="about-section text-center">
+    {/*<section id="purchase" className="about-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">Purchase your Esotericon 2021 tickets now!</h2>
+            <p className="text-white-50">Once you have completed purchase, please select "RETURN 
+            TO MERCHANT" to be redirected to a Google Form so we can document the appropriate 
+            information for your Webinar invitation. If you have purchased more than one ticket, 
+            please submit one form PER ticket purchased. If you are having issues accessing the 
+            Google Form, you can access it here: <a href="https://forms.gle/rFvPLaiXgrbFcP6X6">Ticket Holder Questionaire</a>
+            </p>
             <div className="mx-auto text-center">
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick" />
@@ -77,7 +83,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+</section>*/}
 
     <section id="speakers" className="speakers-section bg-light">
       <div className="container">
