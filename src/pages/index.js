@@ -61,7 +61,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    {/*<section id="purchase" className="about-section text-center">
+    <section id="purchase" className="about-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
@@ -83,7 +83,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-</section>*/}
+</section>
 
     <section id="speakers" className="speakers-section bg-light">
       <div className="container">
