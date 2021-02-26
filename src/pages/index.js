@@ -11,6 +11,8 @@ import Header from '../components/Header';
 
 import mae2021 from '../assets/images/mae2021.jpg';
 
+import jaime from '../assets/images/jaimeLamb-2021Bio.jpg'
+
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
 
@@ -109,15 +111,21 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={"https://res.cloudinary.com/dbglal441/image/upload/v1608390492/maeGraphics/General%20Images/ComingSoon2-01_i8gdlj_bus81o.webp"} alt="https://www.freepik.com/free-photos-vectors/clock" />
+            <img className="img-fluid" src={jaime} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="speakers-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">2021 Conference Speakers</h4>
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Jaime Paul Lamb</h4>
                   <p className="mb-0 text-white-50">
-                    Stay tuned for coming announcements on our 2021 speaker lineup!
+                  Jaime Paul Lamb is the author of MYTH, MAGICK & MASONRY: Occult Perspectives in 
+                  Freemasonry and APPROACHING THE MIDDLE CHAMBER: The Seven Liberal Arts in Freemasonry 
+                  and the Western Esoteric Tradition He is a member of Old Well-Saint John’s Lodge no. 6, F.&A.M., 
+                  Norwalk, CT; a Charter member of Ascension Lodge no. 89, F.&A.M., Phoenix, AZ; a 
+                  frater of the Arizona College of the Societas Rosicruciana in Civitatibus Foederatis; 
+                  and is Past Master of Arizona Research Lodge no. 1 for the year 2016. Lamb has been 
+                  writing and lecturing on Masonic and occult subjects since 2014.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
