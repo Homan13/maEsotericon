@@ -12,6 +12,7 @@ import Header from '../components/Header';
 import mae2021 from '../assets/images/mae2021.jpg';
 
 import jaime from '../assets/images/jaimeLamb-2021Bio.jpg'
+import ben from '../assets/images/benWilliams-2021Bio.jpg'
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -128,6 +129,29 @@ const IndexPage = () => (
                   writing and lecturing on Masonic and occult subjects since 2014.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={ben} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Ben Williams</h4>
+                  <p className="mb-0 text-white-50">
+                  In the Blue Lodge, Ben is a Past Master of Telluride and Norwood Lodges in Colorado and 
+                  currently serves as the Secretary of Research Lodge of Colorado. He publishes the Rocky 
+                  Mountain Mason and Esoteric Mason magazines and hosts the Rocky Mountain Mason podcast.
+                  Among other places, he has been published in the Knight Templar magazine, the Philalethes 
+                  Journal of Masonic Research, and most recently his paper on “Masonry in ‘Pike’s Peak Country’” 
+                  was selected for publication in Quattuor Coronati’s Freemasonry on the Frontier.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
