@@ -13,6 +13,7 @@ import mae2021 from '../assets/images/mae2021.jpg';
 
 import jaime from '../assets/images/jaimeLamb-2021Bio.jpg'
 import ben from '../assets/images/benWilliams-2021Bio.jpg'
+import adam from '../assets/images/adamGoldman-2021Bio.jpg'
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -152,6 +153,29 @@ const IndexPage = () => (
                   was selected for publication in Quattuor Coronati’s Freemasonry on the Frontier.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={adam} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Adam Goldman</h4>
+                  <p className="mb-0 text-white-50">
+                  Worshipful Brother Adam Goldman is the Grand Orator for the Grand Lodge of Washington, DC 
+                  FAAM, and the Orator for DC’s premier Esoteric Lodge, Benjamin B. French No. 15.  He is 
+                  also an Officer in both of the major Rites and a member of several Grand Lodges and/or Research 
+                  Lodges in California, Europe, and Central America. Additionally, WB Goldman is active in 
+                  several Occult bodies that focus on the Western Esoteric Tradition—such as the Masonic 
+                  Rosicrucians in England and America.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
