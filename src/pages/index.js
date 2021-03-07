@@ -11,9 +11,10 @@ import Header from '../components/Header';
 
 import mae2021 from '../assets/images/mae2021.jpg';
 
-import jaime from '../assets/images/jaimeLamb-2021Bio.jpg'
-import ben from '../assets/images/benWilliams-2021Bio.jpg'
-import adam from '../assets/images/adamGoldman-2021Bio.jpg'
+import jaime from '../assets/images/jaimeLamb-2021Bio.jpg';
+import ben from '../assets/images/benWilliams-2021Bio.jpg';
+import adam from '../assets/images/adamGoldman-2021Bio.jpg';
+import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -176,6 +177,30 @@ const IndexPage = () => (
                   Rosicrucians in England and America.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={chuck} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Chuck Dunning</h4>
+                  <p className="mb-0 text-white-50">
+                  Chuck is an advocate, facilitator, and consultant in contemplative practice. With more than 
+                  30 years in the professional fields of higher education and mental health, as well as in 
+                  Masonry and other currents in the Western esoteric traditions, Chuck’s consistent commitment 
+                  is to the actual practice of internal disciplines to facilitate and enhance experiences of 
+                  initiation and transformation. With that aim, he has authored Contemplative Masonry: Basic 
+                  Applications of Mindfulness, Meditation, and Imagery for the Craft, and was a contributing 
+                  author in The Art and Science of Initiation.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
