@@ -15,6 +15,7 @@ import jaime from '../assets/images/jaimeLamb-2021Bio.jpg';
 import ben from '../assets/images/benWilliams-2021Bio.jpg';
 import adam from '../assets/images/adamGoldman-2021Bio.jpg';
 import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
+import ryan from '../assets/images/ryanFlynn-2021Bio.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -201,6 +202,28 @@ const IndexPage = () => (
                   author in The Art and Science of Initiation.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={ryan} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Ryan Flynn</h4>
+                  <p className="mb-0 text-white-50">
+                  RW Ryan Flynn is a member of Phoenix Lodge No. 105 in Tilton, NH and is a current District Deputy 
+                  Grand Education Officer for the Grand Lodge of New Hampshire. He is well known as a Masonic 
+                  artist and lecturer who travels around the country using the arts as a teaching tool for deeper 
+                  masonic themes and concepts. His artworks have been sold around the world and have been featured 
+                  in multiple Masonic publications. He lives in Merrimack, NH with his wife and two daughters.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
