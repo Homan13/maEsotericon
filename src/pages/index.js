@@ -12,10 +12,11 @@ import Header from '../components/Header';
 import mae2021 from '../assets/images/mae2021.jpg';
 
 import jaime from '../assets/images/jaimeLamb-2021Bio.jpg';
-import ben from '../assets/images/benWilliams-2021Bio.jpg';
+import benWilliams from '../assets/images/benWilliams-2021Bio.jpg';
 import adam from '../assets/images/adamGoldman-2021Bio.jpg';
 import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
 import ryan from '../assets/images/ryanFlynn-2021Bio.jpg';
+import benWallace from '../assets/images/benWallace-2021Bio.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -139,7 +140,7 @@ const IndexPage = () => (
         </div>
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={ben} alt="" />
+            <img className="img-fluid" src={benWilliams} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -224,6 +225,28 @@ const IndexPage = () => (
                   in multiple Masonic publications. He lives in Merrimack, NH with his wife and two daughters.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={benWallace} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Ben Wallace</h4>
+                  <p className="mb-0 text-white-50">
+                  Brother Benjamin Wallace, a Past Master of Blackmer Lodge No. 127, and Past Master of Wilkerson 
+                  College Lodge No. 760, and Past Master and Charter Member of North Carolina’s first Traditional 
+                  Observance Lodge, Sophia Lodge No. 767. He is also a friend of the Unknown Philosopher. Brother 
+                  Ben is also Co-Author of “A Path to Providence - The Creation of the Middle Chamber Program” 
+                  which is soon to be released.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
