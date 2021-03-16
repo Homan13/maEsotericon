@@ -17,6 +17,7 @@ import adam from '../assets/images/adamGoldman-2021Bio.jpg';
 import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
 import ryan from '../assets/images/ryanFlynn-2021Bio.jpg';
 import benWallace from '../assets/images/benWallace-2021Bio.jpg';
+import justin from '../assets/images/justinSledge-2021Bio.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -252,7 +253,29 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={justin} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Dr. Justin Sledge</h4>
+                  <p className="mb-0 text-white-50">
+                  Dr. James Justin Sledge was born and raised in a proud working-class Mississippi family.  A 
+                  first-generation college student, Dr. Sledge earned his undergraduate degree at Millsaps College 
+                  then went for a DRS in religious studies (Western Esotericism and Related Currents) at the 
+                  Universiteit van Amsterdam and a MA and PhD in philosophy at the University of Memphis. He is 
+                  currently a part-time professor of philosophy and religion at several institutions in the 
+                  Metro-Detroit area and a popular local educator.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
