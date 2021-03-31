@@ -18,6 +18,7 @@ import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
 import ryan from '../assets/images/ryanFlynn-2021Bio.jpg';
 import benWallace from '../assets/images/benWallace-2021Bio.jpg';
 import justin from '../assets/images/justinSledge-2021Bio.jpg';
+import mitch from '../assets/images/mitchHorowitz-2021Bio.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -271,6 +272,27 @@ const IndexPage = () => (
                   Metro-Detroit area and a popular local educator.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={mitch} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Mitch Horowitz</h4>
+                  <p className="mb-0 text-white-50">
+                   Mitch Horowitz is a historian of alternative spirituality and one of today’s most literate voices
+                   of esoterica, mysticism, and the occult. Mitch illuminates outsider history, explains its relevance 
+                   to contemporary life, and reveals the longstanding quest to bring empowerment and agency to the 
+                   human condition.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
             </div>
