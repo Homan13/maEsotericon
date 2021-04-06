@@ -74,21 +74,12 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Purchase your Esotericon 2021 tickets now!</h2>
-            <p className="text-white-50">Once you have completed purchase, please select "RETURN 
-            TO MERCHANT" to be redirected to a Google Form so we can document the appropriate 
-            information for your Webinar invitation. If you have purchased more than one ticket, 
-            please submit one form PER ticket purchased. If you are having issues accessing the 
-            Google Form, you can access it here: <a href="https://forms.gle/rFvPLaiXgrbFcP6X6">Ticket Holder Questionaire</a>
+            <h2 className="text-white mb-4">Standard Event Pricing Coming Soon!</h2>
+            <p className="text-white-50">
+            Thank you all for the overwhelming support! Early bird tickets have now closed. Don't
+            worry though, if you haven't purchased ticket yet standard pricing tickets will be 
+            going on sale shortly!
             </p>
-            <div className="mx-auto text-center">
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="YP2FV5FD45ANC" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </div>
           </div>
         </div>
       </div>
