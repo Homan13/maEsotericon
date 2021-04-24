@@ -19,7 +19,7 @@ import chuck from '../assets/images/chuckDunning-2021Bio.jpg';
 import ryan from '../assets/images/ryanFlynn-2021Bio.jpg';
 import benWallace from '../assets/images/benWallace-2021Bio.jpg';
 import justin from '../assets/images/justinSledge-2021Bio.jpg';
-import mitch from '../assets/images/mitchHorowitz-2021Bio.jpg';
+import mitch from '../assets/images/20210122_MitchHorowitz_EbruYildiz_38.jpg';
 
 import txCon from '../assets/images/tx-con-copy.jpg';
 import campMasonry from '../assets/images/Camp-Masonry.jpg';
@@ -73,38 +73,42 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="purchase" className="about-section text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Standard Event Pricing Coming Soon!</h2>
-            <p className="text-white-50">
-            Thank you all for the overwhelming support! Early bird tickets have now closed. Don't
-            worry though, if you haven't purchased ticket yet standard pricing tickets will be 
-            going on sale shortly!
-            </p>
-          </div>
-        </div>
-      </div>
-</section>
-
     <section id="speakers" className="speakers-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <iframe width="560" height="315" src='https://www.youtube.com/embed/N7rdcHxPJKI'
+            {/*<iframe width="560" height="315" src='https://www.youtube.com/embed/N7rdcHxPJKI'
                     frameBorder='0'
                     allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                     title='Roadmap to Freemasonry: Joe and Kevin Mid-Atlantic Esotericon 2019'
-            />
+            /> */}
+            <img className="img-fluid" src={mitch} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Hosts</h4>
+              <h4>Featured Speaker - Mitch Horowitz</h4>
               <p className="text-black-50 mb-0">
-                Hear our hosts talk to Brother Juan Sepulveda from RoadMap to Freemasonry talk about
-                what motivated them to start up the Mid-Atlantic Esotericon.
+              MASONIC NATION: How Freemasonry Impacted America. Historian and popular voice of esoteric ideas 
+              Mitch Horowitz explores the impact of Freemasonry on shaping our nation, including its influence 
+              on America’s founding documents and how Masonic values can renew our highest ideals today.
+              <br></br>
+              <br></br>
+              Mitch Horowitz is one of today’s most literate voices of esoterica, mysticism, and the occult. 
+              Mitch is a writer-in-residence at the New York Public Library, lecturer-in-residence at the 
+              Philosophical Research Society in Los Angeles, and the PEN Award-winning author of books including 
+              <a href="https://www.amazon.com/Occult-America-Seances-Circles-History/dp/0553385151/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=0553385151&pd_rd_r=32d4a688-890c-11e8-9f1d-6db4f4e7a1f7&pd_rd_w=ZPr1V&pd_rd_wg=8qdRu&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=3914568618330124508&pf_rd_r=6J4Q7C7JCBWPMWE9VR20&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=6J4Q7C7JCBWPMWE9VR20"> Occult America</a>;
+              <a href="https://www.amazon.com/One-Simple-Idea-Positive-Transform/dp/1510707905/ref=pd_bxgy_14_img_2?_encoding=UTF8&pd_rd_i=1510707905&pd_rd_r=45503f96-890c-11e8-a076-dd4f7c73ae10&pd_rd_w=9Xo5V&pd_rd_wg=En8DV&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=3914568618330124508&pf_rd_r=PZXRR7JA240REHHJB9MG&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=PZXRR7JA240REHHJB9MG"> One Simple Idea: How Positive Thinking Reshaped Modern Life</a>;
+              <a href="https://www.amazon.com/Miracle-Club-Thoughts-Become-Reality/dp/1620557665"> The Miracle Club; </a> 
+              and <a href="https://www.amazon.com/Awakened-Mind-Master-Class-Thoughts/dp/172250188X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="> Awakened Mind</a>, 
+              one of the first works of New Thought published in Arabic. Mitch has discussed alternative spirituality Vox/Netflix’s
+              on CBS Sunday Morning, Dateline NBC, <a href="https://www.youtube.com/watch?v=6NWIfiV1_XQ"> Explained</a>,
+              <a href="https://www.youtube.com/watch?v=_5zhSCoUTh8"> VICE News</a>, and CNN. Mitch recently 
+              appeared on the <a href="https://www.iheart.com/podcast/1119-kesha-and-the-creepies-73389791/episode/supernatural-as-natural-with-mitch-horowitz-81299998/"> podcast </a> 
+              of popstar Kesha and is collaborating with Emmy-nominated director Ronni Thomas on a feature 
+              documentary about the occult classic <a href="https://vimeo.com/327730755"> The Kybalion</a>,
+              shot on location in Egypt. Mitch received the Walden Award for Interfaith/Intercultural Understanding. 
+              His work is censored in China. Visit him at <a href="https://www.mitchhorowitz.com/"> MitchHorowitz.com</a>.
               </p>
             </div>
           </div>
@@ -271,7 +275,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="row justify-content-center no-gutters">
+        {/* <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
             <img className="img-fluid" src={mitch} alt="" />
           </div>
@@ -291,7 +295,7 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
 
