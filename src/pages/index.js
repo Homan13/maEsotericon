@@ -121,7 +121,7 @@ const IndexPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Jaime Paul Lamb</h4>
                   <p className="mb-0 text-white-50">
                   Jaime Paul Lamb is the author of MYTH, MAGICK & MASONRY: Occult Perspectives in 
@@ -145,7 +145,7 @@ const IndexPage = () => (
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Ben Williams</h4>
                   <p className="mb-0 text-white-50">
                   In the Blue Lodge, Ben is a Past Master of Telluride and Norwood Lodges in Colorado and 
@@ -168,7 +168,7 @@ const IndexPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Adam Goldman</h4>
                   <p className="mb-0 text-white-50">
                   Worshipful Brother Adam Goldman is the Grand Orator for the Grand Lodge of Washington, DC 
@@ -191,7 +191,7 @@ const IndexPage = () => (
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Chuck Dunning</h4>
                   <p className="mb-0 text-white-50">
                   Chuck is an advocate, facilitator, and consultant in contemplative practice. With more than 
@@ -215,7 +215,7 @@ const IndexPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Ryan Flynn</h4>
                   <p className="mb-0 text-white-50">
                   RW Ryan Flynn is a member of Phoenix Lodge No. 105 in Tilton, NH and is a current District Deputy 
@@ -237,13 +237,13 @@ const IndexPage = () => (
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="speakers-text w-100 my-auto text-center">
                   <h4 className="text-white">Ben Wallace</h4>
                   <p className="mb-0 text-white-50">
-                  Brother Benjamin Wallace, a Past Master of Blackmer Lodge No. 127, and Past Master of Wilkerson 
-                  College Lodge No. 760, and Past Master and Charter Member of North Carolina’s first Traditional 
-                  Observance Lodge, Sophia Lodge No. 767. He is also a friend of the Unknown Philosopher. Brother 
-                  Ben is also Co-Author of “A Path to Providence - The Creation of the Middle Chamber Program” 
+                  Brother Benjamin Wallace, a Past Master of Blackmer Lodge No. 127, and Past Master of Wilkerson
+                  College Lodge No. 760, and Past Master and Charter Member of North Carolina’s first Traditional
+                  Observance Lodge, Sophia Lodge No. 767. He is also a friend of the Unknown Philosopher. Brother
+                  Ben is also Co-Author of “A Path to Providence - The Creation of the Middle Chamber Program”
                   which is soon to be released.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
@@ -259,9 +259,9 @@ const IndexPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="speakers-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Dr. Justin Sledge</h4>
-                  <p className="mb-0 text-white-50">
+                  <p className="mb-5 text-white-50">
                   Dr. James Justin Sledge was born and raised in a proud working-class Mississippi family.  A 
                   first-generation college student, Dr. Sledge earned his undergraduate degree at Millsaps College 
                   then went for a DRS in religious studies (Western Esotericism and Related Currents) at the 
