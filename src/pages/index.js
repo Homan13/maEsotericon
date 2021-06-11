@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
-import Tickets from '../components/Tickets';
 
 import mae2021 from '../assets/images/mae2021.jpg';
 
@@ -43,8 +42,6 @@ const IndexPage = () => (
         </div>
       </div>
     </header>
-
-    <Tickets />
 
     <section id="about" className="about-section text-center">
       <div className="container">

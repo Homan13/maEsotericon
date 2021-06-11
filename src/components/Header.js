@@ -61,7 +61,7 @@ export default class Header extends Component {
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            {/*<li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
@@ -71,7 +71,7 @@ export default class Header extends Component {
                     Tickets
                   </a>
                 </Scroll>
-              </li>
+              </li>*/}
               <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
